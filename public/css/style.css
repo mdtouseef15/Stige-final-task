@@ -5,16 +5,16 @@
 }
 
 body {
-	background-image: url("/public/img/sky.jpg");
-	background-size:cover;
+	background-image: url("/img/multy.jpg");
+	background-size: cover;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	font-family: "Roboto";
-	color: white;
+	color: black;
 	/* background-color: #182b3a; */
-	/* background-image: linear-gradient(315deg, #182b3a 0%, #20a4f3 74%); */
+	/* background-image: linear-gradient(315deg, #182b3a 0%, #20a4f3 74%);	 */
 }
 
 .location,
@@ -48,7 +48,7 @@ body {
 a {
 	font-size: 20px;
 	padding: 10px 10px;
-	color: white;
+	color: black;
 	text-decoration: none;
 }
 
@@ -80,11 +80,11 @@ a {
 .fa-map-marked-alt {
 	pointer-events: none;
 	cursor: pointer;
-	color: white;
+	color: black;
 }
 
 .fa-map-marked-alt-geoloc-red {
-	color: rgb(255, 32, 32);
+	color: white;
 }
 
 .fa-sync-alt {
